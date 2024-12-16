@@ -4,7 +4,7 @@ The system allows multiple clients to connect to a central server and exchange m
 
 ## File Description:
 
-* Client.py: This file contains the implementation of the client-side application. It provides a graphical user interface (GUI) using Tkinter for users to login, view the chat interface, send messages to all users, and initiate private conversations with specific users.
+* **Client.py**: This file contains the implementation of the client-side application. It provides a graphical user interface (GUI) using Tkinter for users to login, view the chat interface, send messages to all users, and initiate private conversations with specific users.
 * Server.py: This file contains the implementation of the server-side application. It listens for incoming connections from clients, maintains a list of connected clients, and facilitates message broadcasting among clients. Additionally, it provides functionality to send updated user lists to all clients.
 
 ## Features:
