@@ -196,7 +196,7 @@ class ChatClient:
 
 def main():
     root = tk.Tk()
-    root.withdraw()  # Hide the main window
+    root.withdraw()  
     chat_client = ChatClient(root)
     root.mainloop()
 
