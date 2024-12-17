@@ -67,6 +67,8 @@ def start_server():
         client_thread.start()
         print(f"[ACTIVE CONNECTIONS] {len(clients)}")
 
+# def start():
+
 # Start the server
 if __name__ == "__main__":
     start_server()
